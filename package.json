@@ -1,9 +1,9 @@
 {
-  "name": "pleasant_ghost",
+  "name": "react_redux_testing",
   "version": "1.0.0",
-  "description": "Handles environment behind the scenes so you don't have to.",
+  "description": "Simple app built to better understand testing react components with Mocha, Chai, and Chai-jQuery.",
   "main": "index.js",
-  "repository": "git@github.com:jaredmurphy/pleasant_ghost.git",
+  "repository": ""
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
