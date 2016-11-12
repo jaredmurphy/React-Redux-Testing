@@ -21,11 +21,14 @@ class CommentBox extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit.bind(this)} className="comment-box">
+        <h4> Add a Comment </h4>
         <textarea 
           value={this.state.comment} 
           onChange={this.handleChange.bind(this)} 
          />
-        <button>Submit Comment</button>
+         <div>
+          <button>Submit Comment</button>
+         </div>
       </form>
     );
   }
